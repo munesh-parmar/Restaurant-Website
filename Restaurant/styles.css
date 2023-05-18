@@ -1,0 +1,89 @@
+body {
+    font-family: Sora, sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+h1,h2,h3,h4,h5,h6, .display-4{
+    color: var(--dark);
+    font-weight: 700;
+  
+}
+.kfc{
+width: 200vh;
+margin-left: 10px;
+}
+
+img{
+    width: 100%;
+}
+.navbar{
+    box-shadow: var(--box-shadow);
+}
+.navbar .logo{
+width: 160px;
+}
+
+.navbar .nav-link{
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn{
+    padding: 6px 13px;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+.hero{
+    background-image: url(images/7fac46f6c330e7a42b72903f12334ca6.jpg);
+    background-position: center;
+    background-size: cover;
+  height: 80px;
+  background-attachment: fixed;
+    
+}
+
+
+.project{
+    position: relative;
+    overflow: hidden;
+ }
+ .project .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 20, 51, 0.5);
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s ease;
+    opacity: 0;
+ }
+ .project img{
+    transition: all 0.3s ease;
+    width: 100%;
+
+ }
+ .project:hover .overlay{
+    opacity: 1;
+
+ }
+ .project:hover img{
+    transform: scale(1.1);
+ }
+ #items{
+    padding-top: 15vh;
+ }
+.project .heading{
+    margin-top: 50px;
+}
+#contact{
+    padding-top: 15vh;
+ }
+ .heading{
+    color: rgb(207, 142, 62);
+    margin-top: 50px;
+    font-size: 50px;
+    font-style:inherit;
+ }
